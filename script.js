@@ -17,7 +17,7 @@ function builder(divNo){
     const divs = document.getElementsByClassName('gridDiv');
     for (const div of divs) {
         div.addEventListener('mouseover', (event) => {
-            event.target.style.backgroundColor = 'green';
+            event.target.style.backgroundColor = 'black';
         });
     }
 }
